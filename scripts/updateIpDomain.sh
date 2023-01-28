@@ -7,9 +7,10 @@ public_ip=$(curl ifconfig.me)
 actual_ip="$(echo $dns | jq '.ipv4Address')"
 dns_id="$(echo $dns | jq '.id')"
 
-if [ "\"$public_ip\"" == "$(echo $dns | jq '.ipv4Address')" ]; then
+if [ "\"$public_ip\"" == $actual_ip ]; then
 	echo "Public ip doesnt changed yet :)"
 else
+	echo "IP changed from $actual_ip to $public_ip :O"
 	echo "Changing DNS of $DOMAIN to $public_ip ..."
 
   new_dns=$(echo $dns | jq ".ipv4Address = \"$public_ip\"")
