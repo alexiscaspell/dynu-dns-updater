@@ -82,17 +82,17 @@ Para realizar esto se utilizo:
 <!-- GETTING STARTED -->
 ## Empezando
 
-Para empezar a usar el proyecto puede buildear la imagen localmente o utilizar la imagen ya buildeada [en la registry de dockerhub](https://hub.docker.com/repository/docker/alexiscaspell/dynu-dns-updater/general)
+Para comenzar a usar el proyecto puede buildear la imagen localmente o utilizar la imagen ya buildeada [en la registry de dockerhub](https://hub.docker.com/repository/docker/alexiscaspell/dynu-dns-updater/general)
 
 ### Prerequisitos
 
-Para empezar necesitas:
+Antes que nada necesitas:
 * Docker
 * Una cuenta en [Dynu](https://www.dynu.com/en-US)
 
 ### Instalacion
 
-_Para empezar tenes que tener dado de alta [un dominio en dynu](https://www.dynu.com/en-US/ControlPanel/DDNS) _
+_Para empezar tenes que tener dado de alta [un dominio en dynu](https://www.dynu.com/en-US/ControlPanel/DDNS)_
 
 1. Obtene tu api key en [https://www.dynu.com/en-US/ControlPanel/APICredentials](https://www.dynu.com/en-US/ControlPanel/APICredentials)
 2. Clona el repositorio
@@ -121,7 +121,7 @@ La configuracion se realiza mediante variables de ambiente, las cuales son:
 
 * **APIKEY (required)**: Es la apikey de la cuenta que tenes asociada en dynu.
 * **DOMAIN (required)**: El nombre de dominio que diste de alta en dynu (por ejemplo ***example.freedns.org***).
-* **INTERVAL**: Es el intervalo en minutos para el cual el cron se va a ejecutar.
+* **INTERVAL**: Es el intervalo en minutos para el cual el cron se va a ejecutar (_default=30_).
 
 
 ### Ejecucion
