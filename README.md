@@ -70,7 +70,7 @@ Este proyecto consiste en una imagen de docker alpine, que corre un cron que cad
 
 ### Tecnologias usadas
 
-Para realizar esto se utilizo
+Para realizar esto se utilizo:
 
 * [![Dynu][Dynu]][Dynu-url]
 * [![Docker][Docker]][Docker-url]
@@ -178,3 +178,5 @@ Link del proyecto: [https://github.com/alexiscaspell/dynu-dns-updater](https://g
 [product-screenshot]: https://github.com/alexiscaspell/dynu-dns-updater/blob/main/img/screenshot1.png
 [Dynu]: https://github.com/alexiscaspell/dynu-dns-updater/blob/main/img/logodynu.ico
 [Docker]: https://github.com/alexiscaspell/dynu-dns-updater/blob/main/img/logodocker.ico
+[Dynu-url]: https://www.dynu.com/en-US/
+[Docker-url]: https://www.docker.com/
