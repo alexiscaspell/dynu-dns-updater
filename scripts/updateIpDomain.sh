@@ -26,6 +26,6 @@ else
     echo "Registro DNS actualizado!"
   else
     echo "Status: ${staus_code}"
-    echo "No se pudo actualizar el registro DNS :( "
+    echo "Could not update DNS record :( "
   fi
 fi
